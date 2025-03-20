@@ -13,7 +13,7 @@ struct SplashView: View {
 
     var body: some View {
         if isActive {
-            ContentView() // Main screen
+            OnboardingView()
         } else {
             ZStack {
                 Color("PrimaryColor") // Custom color from Assets.xcassets
