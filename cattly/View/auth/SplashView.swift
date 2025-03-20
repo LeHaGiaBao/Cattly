@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct SplashView: View {
+    @Binding var isLoggedIn: Bool
     @State private var isActive = false
     @State private var opacity = 0.0
 
     var body: some View {
         if isActive {
-            ContentView() // Main screen
+            OnboardingView(isLoggedIn: $isLoggedIn)
         } else {
             ZStack {
                 Color("PrimaryColor") // Custom color from Assets.xcassets

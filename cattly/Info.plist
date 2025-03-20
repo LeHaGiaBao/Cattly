@@ -5,6 +5,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>SFPRODISPLAYREGULAR.otf</string>
+		<string>jsMath.ttf</string>
 	</array>
 </dict>
 </plist>
