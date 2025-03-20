@@ -78,7 +78,7 @@ struct OnboardingView: View {
             .padding()
         }
         .fullScreenCover(isPresented: $isActive) {
-            ContentView()
+            LoginView()
         }
     }
 }

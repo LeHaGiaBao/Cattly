@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "add_new" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -67,6 +70,9 @@
         }
       }
     },
+    "f" : {
+
+    },
     "followed_by_people" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -88,6 +94,9 @@
           }
         }
       }
+    },
+    "G" : {
+
     },
     "get_started" : {
       "extractionState" : "manual",
@@ -132,6 +141,9 @@
           }
         }
       }
+    },
+    "or" : {
+      "comment" : "or"
     },
     "password" : {
       "extractionState" : "manual",
