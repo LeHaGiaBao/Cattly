@@ -10,13 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Hello, SwiftUI!")
+            Text(NSLocalizedString("cattly", comment: "cattly"))
                 .font(.largeTitle)
                 .padding()
             Button(action: {
                 print("Button tapped!")
             }) {
-                Text("Tap Me")
+                Text(NSLocalizedString("get_started", comment: "get_started"))
                     .padding()
                     .background(Color.blue)
                     .foregroundColor(.white)
