@@ -1,7 +1,292 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-
+    "add_new" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add new"
+          }
+        }
+      }
+    },
+    "cattly" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cattly"
+          }
+        }
+      }
+    },
+    "create_story" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create story"
+          }
+        }
+      }
+    },
+    "do_not_have_an_account" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don’t have an account?"
+          }
+        }
+      }
+    },
+    "edit_profile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit profile"
+          }
+        }
+      }
+    },
+    "email" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        }
+      }
+    },
+    "followed_by_people" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Followed by %d people"
+          }
+        }
+      }
+    },
+    "forgot_password" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forgot password?"
+          }
+        }
+      }
+    },
+    "get_started" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Started"
+          }
+        }
+      }
+    },
+    "let_find_your_pet" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let‘s find your pet"
+          }
+        }
+      }
+    },
+    "live" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live"
+          }
+        }
+      }
+    },
+    "next" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        }
+      }
+    },
+    "password" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
+          }
+        }
+      }
+    },
+    "photos" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos"
+          }
+        }
+      }
+    },
+    "post" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Post"
+          }
+        }
+      }
+    },
+    "remember_me" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remember Me"
+          }
+        }
+      }
+    },
+    "saved" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved"
+          }
+        }
+      }
+    },
+    "search_on_cattly" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search on Cattly"
+          }
+        }
+      }
+    },
+    "share" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share"
+          }
+        }
+      }
+    },
+    "share_your_cat_moment" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share your cat’s moment"
+          }
+        }
+      }
+    },
+    "sign_in" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign in"
+          }
+        }
+      }
+    },
+    "sign_up_now" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign up now"
+          }
+        }
+      }
+    },
+    "story" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Story"
+          }
+        }
+      }
+    },
+    "welcome_to_cattly" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to Cattly!"
+          }
+        }
+      }
+    },
+    "what_did_your_pet_do_today" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What did your pet do today?"
+          }
+        }
+      }
+    },
+    "what_your_pet_doing" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What‘s your pet doing?"
+          }
+        }
+      }
+    }
   },
   "version" : "1.0"
 }

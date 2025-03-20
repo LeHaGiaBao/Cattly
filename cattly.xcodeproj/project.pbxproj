@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2E5FAC042D8BBFD3007458E7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2E5FAC032D8BBFD3007458E7 /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2E47060F2D87257900C0B63F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,25 @@
 		2E4705FC2D87257800C0B63F /* cattly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cattly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E47060E2D87257900C0B63F /* cattlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cattlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4706182D87257900C0B63F /* cattlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cattlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5FAC032D8BBFD3007458E7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2E5FABFC2D8BBB36007458E7 /* Exceptions for "cattly" folder in "cattly" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2E4705FB2D87257800C0B63F /* cattly */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2E4705FE2D87257800C0B63F /* cattly */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2E5FABFC2D8BBB36007458E7 /* Exceptions for "cattly" folder in "cattly" target */,
+			);
 			path = cattly;
 			sourceTree = "<group>";
 		};
@@ -75,6 +93,7 @@
 		2E4705F32D87257800C0B63F = {
 			isa = PBXGroup;
 			children = (
+				2E5FAC032D8BBFD3007458E7 /* Localizable.xcstrings */,
 				2E4705FE2D87257800C0B63F /* cattly */,
 				2E4706112D87257900C0B63F /* cattlyTests */,
 				2E47061B2D87257900C0B63F /* cattlyUITests */,
@@ -212,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E5FAC042D8BBFD3007458E7 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +348,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -384,6 +405,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -399,6 +421,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"cattly/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cattly/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Cattly;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -432,6 +455,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"cattly/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cattly/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Cattly;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
