@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    @Binding var isLoggedIn: Bool
     @State private var isActive = false
     
     var body: some View {
@@ -78,13 +79,7 @@ struct OnboardingView: View {
             .padding()
         }
         .fullScreenCover(isPresented: $isActive) {
-            LoginView()
+            LoginView(isLoggedIn: $isLoggedIn)
         }
-    }
-}
-
-struct OnboardingView_Previews: PreviewProvider {
-    static var previews: some View {
-        OnboardingView()
     }
 }

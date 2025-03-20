@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct LoginView: View {
+    @Binding var isLoggedIn: Bool
     @State private var email: String = "saroncately@gmail.com"
     @State private var password: String = "password"
     @State private var isPasswordVisible: Bool = false
@@ -128,6 +129,7 @@ struct LoginView: View {
                     
                     // Sign in button
                     Button(action: {
+                        isLoggedIn = true
                     }) {
                         Text(NSLocalizedString("sign_in", comment: "sign_in"))
                             .fontWeight(.semibold)
@@ -215,11 +217,5 @@ struct LoginView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.white)
         }
-    }
-}
-
-struct LoginView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginView()
     }
 }

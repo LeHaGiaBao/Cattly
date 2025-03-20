@@ -26,6 +26,12 @@
         }
       }
     },
+    "Cattly" : {
+
+    },
+    "Create Post" : {
+
+    },
     "create_story" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -71,7 +77,14 @@
       }
     },
     "f" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "f"
+          }
+        }
+      }
     },
     "followed_by_people" : {
       "extractionState" : "manual",
@@ -96,7 +109,14 @@
       }
     },
     "G" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "G"
+          }
+        }
+      }
     },
     "get_started" : {
       "extractionState" : "manual",
@@ -131,6 +151,9 @@
         }
       }
     },
+    "Messages" : {
+
+    },
     "next" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -143,7 +166,15 @@
       }
     },
     "or" : {
-      "comment" : "or"
+      "comment" : "or",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "or"
+          }
+        }
+      }
     },
     "password" : {
       "extractionState" : "manual",
@@ -178,6 +209,9 @@
         }
       }
     },
+    "Profile" : {
+
+    },
     "remember_me" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -199,6 +233,9 @@
           }
         }
       }
+    },
+    "Search" : {
+
     },
     "search_on_cattly" : {
       "extractionState" : "manual",
