@@ -14,35 +14,35 @@ struct CattlyTabView: View {
         TabView(selection: $selectedTab) {
             HomeView()
                 .tabItem {
-                    Image(systemName: selectedTab == 0 ? "house.fill" : "house")
+                    Image(selectedTab == 0 ? "home_active" : "home")
                 }
                 .tag(0)
             
             SearchView()
                 .tabItem {
-                    Image(systemName: "magnifyingglass")
+                    Image(selectedTab == 1 ? "search_active" : "search")
                 }
                 .tag(1)
             
             CreatePostView()
                 .tabItem {
-                    Image(systemName: "plus.circle")
+                    Image("new_post")
                 }
                 .tag(2)
             
             MessagesView()
                 .tabItem {
-                    Image(systemName: "message")
+                    Image(selectedTab == 3 ? "phone_active" : "phone")
                 }
                 .tag(3)
             
             ProfileView()
                 .tabItem {
-                    Image(systemName: "person.circle")
+                    Image("profile")
                 }
                 .tag(4)
         }
-        .accentColor(Color("PrimaryColor"))
+        .background(Color("WhiteColor"))
     }
 }
 
