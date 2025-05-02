@@ -9,8 +9,30 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Home")
-            .font(.largeTitle)
+        NavigationView {
+            ScrollView {
+                VStack(spacing: 16) {
+                }
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Text(NSLocalizedString("cattly", comment: "cattly"))
+                        .font(.custom("jsMath-cmmi10", size: 32))
+                        .fontWeight(.medium)
+                        .foregroundColor(Color("PrimaryColor"))
+                        .italic()
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {}) {
+                        Image("noti")
+                            .foregroundColor(Color("PrimaryColor"))
+                            .frame(width: 28, height: 28)
+                    }
+                }
+            }
+        }
     }
 }
 
