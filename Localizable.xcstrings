@@ -26,9 +26,6 @@
         }
       }
     },
-    "Cattly" : {
-
-    },
     "Create Post" : {
 
     },
@@ -233,9 +230,6 @@
           }
         }
       }
-    },
-    "Search" : {
-
     },
     "search_on_cattly" : {
       "extractionState" : "manual",
