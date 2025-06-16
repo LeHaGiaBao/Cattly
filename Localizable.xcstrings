@@ -148,9 +148,6 @@
         }
       }
     },
-    "Messages" : {
-
-    },
     "next" : {
       "extractionState" : "manual",
       "localizations" : {
