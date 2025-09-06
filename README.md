@@ -1,8 +1,8 @@
-# Cattly - A Social App
+# Cattly - A Social App For Cats And Managing
 
 ## Technology
 
-- Swift, SwiftUI
+- Swift, SwiftUI, Xcode
 
 ## UI design available here: [Behance](https://www.behance.net/gallery/180607033/Cattly)
 
@@ -15,3 +15,7 @@ git clone git@github.com:LeHaGiaBao/Cattly.git
 ```
 
 Open Xcode and Run App
+
+## Project snapshot
+
+![review](./review.png)
