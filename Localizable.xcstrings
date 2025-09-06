@@ -83,6 +83,9 @@
         }
       }
     },
+    "Followed by 2141 people" : {
+
+    },
     "followed_by_people" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -125,6 +128,9 @@
           }
         }
       }
+    },
+    "I'm not lazy, I'm in energy-saving mode :3" : {
+
     },
     "let_find_your_pet" : {
       "extractionState" : "manual",
@@ -203,9 +209,6 @@
         }
       }
     },
-    "Profile" : {
-
-    },
     "remember_me" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -260,6 +263,9 @@
           }
         }
       }
+    },
+    "Sharon" : {
+
     },
     "sign_in" : {
       "extractionState" : "manual",
