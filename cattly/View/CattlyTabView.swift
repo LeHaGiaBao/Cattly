@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CattlyTabView: View {
     @State private var selectedTab = 0
+    @State private var showCreatePost = false
     
     var body: some View {
         TabView(selection: $selectedTab) {
@@ -24,7 +25,7 @@ struct CattlyTabView: View {
                 }
                 .tag(1)
             
-            CreatePostView()
+            Color.clear
                 .tabItem {
                     Image("new_post")
                 }
@@ -43,6 +44,15 @@ struct CattlyTabView: View {
                 .tag(4)
         }
         .background(Color("WhiteColor"))
+        .onChange(of: selectedTab) { newValue in
+            if newValue == 2 {
+                showCreatePost = true
+                selectedTab = 0
+            }
+        }
+        .fullScreenCover(isPresented: $showCreatePost) {
+            CreatePostView()
+        }
     }
 }
 
