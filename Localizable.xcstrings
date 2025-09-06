@@ -27,7 +27,26 @@
       }
     },
     "Create Post" : {
-
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create Post"
+          }
+        }
+      }
+    },
+    "create_post" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create Post"
+          }
+        }
+      }
     },
     "create_story" : {
       "extractionState" : "manual",
@@ -165,6 +184,9 @@
         }
       }
     },
+    "Next" : {
+
+    },
     "or" : {
       "comment" : "or",
       "localizations" : {
@@ -198,6 +220,9 @@
         }
       }
     },
+    "Photos" : {
+
+    },
     "post" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -208,6 +233,9 @@
           }
         }
       }
+    },
+    "POST" : {
+
     },
     "remember_me" : {
       "extractionState" : "manual",
@@ -252,6 +280,9 @@
           }
         }
       }
+    },
+    "Share" : {
+
     },
     "share_your_cat_moment" : {
       "extractionState" : "manual",
@@ -299,6 +330,9 @@
           }
         }
       }
+    },
+    "STORY" : {
+
     },
     "welcome_to_cattly" : {
       "extractionState" : "manual",
